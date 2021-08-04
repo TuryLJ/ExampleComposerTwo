@@ -1,0 +1,22 @@
+{
+    "name": "ejemplo/hola",
+    "description": "Hola",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jose@hotmail.com",
+            "email": "ljperez@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "version": "1.0.1",
+    "autoload": {
+        "psr-0": {
+            "HelloWorld": "src/"
+        }
+    }
+}
